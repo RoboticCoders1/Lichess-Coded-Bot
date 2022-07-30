@@ -36,10 +36,11 @@ option name Threads type spin : 20
 option name Hash type spin : 25
 option name Ponder type check : true
 option name MultiPV type spin : 1
-option name Skill Level type spin : 20
+option name Skill Level type spin : +20
 option name Move Overhead type spin : 100
 option name nodestime type spin : 0
 option name Use NNUE type check : true
+option name TsumeMode type check: true
 option name UCI_ELO type spin : 2850
 
 #    go_commands:             # additional options to pass to the UCI go command
